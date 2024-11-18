@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
+header{
+    background-color: rgb(200, 200, 240);
+    padding: 30px 10px;
+    text-align: center;
+    font-size: large;
+
+}
+
+.text-content{
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto; /* Centers the content */
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling the unordered list (ul) */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  
+  /* Styling links */
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    border-radius: 5px;
+    background-color:  rgb(200, 200, 240);
+    color: white;
+  }
+  p {
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    main {
+      padding: 15px;
+    }
+  }

@@ -13,19 +13,68 @@ body{
 }
 
 .container{
-    width:100%;
-
+    width:100%; 
+    
 }
 
+.first-section{
+    background-color: rgb(248, 247, 247);
+    padding: 3rem 0 2rem 0;
+    overflow: hidden;
+
+}
+.text-content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    
+}
 
 span{
-    color: rgb(41, 109, 41)
+    color: rgb(69, 153, 69)
 }
 
+.second-section{
+    background-color: grey;
+    padding-bottom: 1 rem;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgb(219, 206, 206);
+  }
+.background-2{
+    padding-top: 10px;
+  background-color: rgb(219, 206, 206);;
+  bottom: 0;
+}
+.white-body{
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+
+}
+
+.white-body .text-content{
+  background-color: #fff;
+  padding: 4rem 4rem 20px 30px;
+  margin-bottom: 20px;
+}
+
+#yellow-heading{
+    position: absolute;
+    top: 0;
+    background-color: #ffbf00;
+    padding: 10px 0 ;
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+   margin-left: 10px;
 
 
-
-
+}
 
 
 
